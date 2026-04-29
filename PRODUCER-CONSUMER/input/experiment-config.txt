@@ -1,0 +1,11 @@
+# Producer-Consumer experiment setup
+# Format: producers consumers bufferSize
+2 2 20
+2 5 20
+2 10 20
+5 2 20
+5 5 20
+5 10 20
+10 2 20
+10 5 20
+10 10 20

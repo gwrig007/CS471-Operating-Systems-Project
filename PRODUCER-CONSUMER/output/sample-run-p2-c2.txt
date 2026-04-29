@@ -1,0 +1,29 @@
+﻿Consumer 2 local stats: consumed=499, aggregateSales=244043.93
+Consumer 1 local stats: consumed=501, aggregateSales=259061.76
+
+----- Simulation Summary -----
+Producers: 2
+Consumers: 2
+Buffer size: 20
+Produced records: 1000
+Total simulation time (ms): 11535
+
+Store-wide total sales:
+Store 1: 259267.60
+Store 2: 243838.09
+
+Month-wise total sales (all stores):
+Month 01: 41034.54
+Month 02: 48731.30
+Month 03: 35678.54
+Month 04: 45438.70
+Month 05: 36736.85
+Month 06: 55564.70
+Month 07: 44602.68
+Month 08: 40367.14
+Month 09: 39130.64
+Month 10: 41036.40
+Month 11: 33701.46
+Month 12: 41082.74
+
+Aggregate sales: 503105.69

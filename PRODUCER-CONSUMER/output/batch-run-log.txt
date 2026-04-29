@@ -1,0 +1,347 @@
+﻿
+=== Running configuration p=2, c=2 ===
+Consumer 1 local stats: consumed=499, aggregateSales=254024.56
+Consumer 2 local stats: consumed=501, aggregateSales=252341.58
+
+----- Simulation Summary -----
+Producers: 2
+Consumers: 2
+Buffer size: 20
+Produced records: 1000
+Total simulation time (ms): 11880
+
+Store-wide total sales:
+Store 1: 258799.18
+Store 2: 247566.96
+
+Month-wise total sales (all stores):
+Month 01: 41901.34
+Month 02: 39020.47
+Month 03: 38188.53
+Month 04: 42420.49
+Month 05: 46854.80
+Month 06: 33553.89
+Month 07: 50570.24
+Month 08: 44767.99
+Month 09: 41277.52
+Month 10: 44041.51
+Month 11: 42681.14
+Month 12: 41088.22
+
+Aggregate sales: 506366.14
+
+=== Running configuration p=2, c=5 ===
+Consumer 3 local stats: consumed=198, aggregateSales=100326.70
+Consumer 4 local stats: consumed=200, aggregateSales=101914.29
+Consumer 5 local stats: consumed=201, aggregateSales=100605.20
+Consumer 1 local stats: consumed=200, aggregateSales=98019.01
+Consumer 2 local stats: consumed=201, aggregateSales=105668.61
+
+----- Simulation Summary -----
+Producers: 2
+Consumers: 5
+Buffer size: 20
+Produced records: 1000
+Total simulation time (ms): 11399
+
+Store-wide total sales:
+Store 1: 244313.26
+Store 2: 262220.55
+
+Month-wise total sales (all stores):
+Month 01: 40496.74
+Month 02: 39342.67
+Month 03: 42403.63
+Month 04: 40481.25
+Month 05: 45509.24
+Month 06: 38355.74
+Month 07: 44370.73
+Month 08: 45344.20
+Month 09: 35550.98
+Month 10: 37308.46
+Month 11: 44657.36
+Month 12: 52712.81
+
+Aggregate sales: 506533.81
+
+=== Running configuration p=2, c=10 ===
+Consumer 4 local stats: consumed=101, aggregateSales=48235.05
+Consumer 3 local stats: consumed=100, aggregateSales=50885.51
+Consumer 8 local stats: consumed=100, aggregateSales=52860.87
+Consumer 10 local stats: consumed=99, aggregateSales=44779.11
+Consumer 9 local stats: consumed=99, aggregateSales=53239.46
+Consumer 1 local stats: consumed=101, aggregateSales=52041.06
+Consumer 2 local stats: consumed=100, aggregateSales=49353.10
+Consumer 7 local stats: consumed=99, aggregateSales=50156.90
+Consumer 5 local stats: consumed=101, aggregateSales=51015.88
+Consumer 6 local stats: consumed=100, aggregateSales=49680.36
+
+----- Simulation Summary -----
+Producers: 2
+Consumers: 10
+Buffer size: 20
+Produced records: 1000
+Total simulation time (ms): 11564
+
+Store-wide total sales:
+Store 1: 259122.25
+Store 2: 243125.05
+
+Month-wise total sales (all stores):
+Month 01: 45816.46
+Month 02: 43983.10
+Month 03: 41313.47
+Month 04: 37520.24
+Month 05: 37929.12
+Month 06: 43033.61
+Month 07: 36439.40
+Month 08: 47753.96
+Month 09: 47520.58
+Month 10: 36610.26
+Month 11: 43592.79
+Month 12: 40734.31
+
+Aggregate sales: 502247.30
+
+=== Running configuration p=5, c=2 ===
+Consumer 1 local stats: consumed=503, aggregateSales=245159.57
+Consumer 2 local stats: consumed=497, aggregateSales=239798.46
+
+----- Simulation Summary -----
+Producers: 5
+Consumers: 2
+Buffer size: 20
+Produced records: 1000
+Total simulation time (ms): 4579
+
+Store-wide total sales:
+Store 1: 95907.80
+Store 2: 95118.39
+Store 3: 96810.07
+Store 4: 103180.84
+Store 5: 93940.93
+
+Month-wise total sales (all stores):
+Month 01: 39335.38
+Month 02: 43362.89
+Month 03: 37340.53
+Month 04: 39964.24
+Month 05: 38755.11
+Month 06: 34272.39
+Month 07: 54606.78
+Month 08: 35255.28
+Month 09: 38267.01
+Month 10: 36477.20
+Month 11: 45098.20
+Month 12: 42223.02
+
+Aggregate sales: 484958.03
+
+=== Running configuration p=5, c=5 ===
+Consumer 2 local stats: consumed=198, aggregateSales=96021.71
+Consumer 1 local stats: consumed=202, aggregateSales=100442.22
+Consumer 4 local stats: consumed=198, aggregateSales=97515.97
+Consumer 5 local stats: consumed=202, aggregateSales=108800.89
+Consumer 3 local stats: consumed=200, aggregateSales=101308.63
+
+----- Simulation Summary -----
+Producers: 5
+Consumers: 5
+Buffer size: 20
+Produced records: 1000
+Total simulation time (ms): 4690
+
+Store-wide total sales:
+Store 1: 103433.85
+Store 2: 101289.30
+Store 3: 100453.92
+Store 4: 100178.39
+Store 5: 98733.96
+
+Month-wise total sales (all stores):
+Month 01: 42541.67
+Month 02: 39610.57
+Month 03: 41890.30
+Month 04: 42679.15
+Month 05: 44953.04
+Month 06: 40505.70
+Month 07: 46621.24
+Month 08: 38437.02
+Month 09: 42012.25
+Month 10: 46070.87
+Month 11: 40014.85
+Month 12: 38752.76
+
+Aggregate sales: 504089.42
+
+=== Running configuration p=5, c=10 ===
+Consumer 9 local stats: consumed=101, aggregateSales=50555.77
+Consumer 2 local stats: consumed=102, aggregateSales=54424.94
+Consumer 3 local stats: consumed=100, aggregateSales=48925.20
+Consumer 1 local stats: consumed=96, aggregateSales=48473.05
+Consumer 6 local stats: consumed=101, aggregateSales=50154.81
+Consumer 8 local stats: consumed=107, aggregateSales=50222.96
+Consumer 5 local stats: consumed=101, aggregateSales=49844.39
+Consumer 10 local stats: consumed=97, aggregateSales=54034.16
+Consumer 4 local stats: consumed=97, aggregateSales=47043.38
+Consumer 7 local stats: consumed=98, aggregateSales=51605.20
+
+----- Simulation Summary -----
+Producers: 5
+Consumers: 10
+Buffer size: 20
+Produced records: 1000
+Total simulation time (ms): 4676
+
+Store-wide total sales:
+Store 1: 104075.74
+Store 2: 102838.96
+Store 3: 96712.13
+Store 4: 105092.28
+Store 5: 96564.75
+
+Month-wise total sales (all stores):
+Month 01: 46934.07
+Month 02: 45956.40
+Month 03: 31186.11
+Month 04: 38138.54
+Month 05: 44967.54
+Month 06: 40096.97
+Month 07: 39491.89
+Month 08: 45583.20
+Month 09: 33634.99
+Month 10: 47885.30
+Month 11: 48431.18
+Month 12: 42977.67
+
+Aggregate sales: 505283.86
+
+=== Running configuration p=10, c=2 ===
+Consumer 2 local stats: consumed=502, aggregateSales=250220.08
+Consumer 1 local stats: consumed=498, aggregateSales=239334.38
+
+----- Simulation Summary -----
+Producers: 10
+Consumers: 2
+Buffer size: 20
+Produced records: 1000
+Total simulation time (ms): 2336
+
+Store-wide total sales:
+Store 1: 43732.28
+Store 2: 49487.24
+Store 3: 50690.97
+Store 4: 53514.07
+Store 5: 43149.62
+Store 6: 44855.25
+Store 7: 52962.41
+Store 8: 57130.25
+Store 9: 49060.75
+Store 10: 44971.62
+
+Month-wise total sales (all stores):
+Month 01: 33120.57
+Month 02: 43354.03
+Month 03: 44363.34
+Month 04: 42919.98
+Month 05: 45071.45
+Month 06: 40807.86
+Month 07: 37812.18
+Month 08: 38321.54
+Month 09: 39929.56
+Month 10: 49355.24
+Month 11: 38055.13
+Month 12: 36443.58
+
+Aggregate sales: 489554.46
+
+=== Running configuration p=10, c=5 ===
+Consumer 1 local stats: consumed=195, aggregateSales=98450.02
+Consumer 4 local stats: consumed=204, aggregateSales=103312.49
+Consumer 2 local stats: consumed=203, aggregateSales=100579.08
+Consumer 5 local stats: consumed=196, aggregateSales=95237.40
+Consumer 3 local stats: consumed=202, aggregateSales=101234.04
+
+----- Simulation Summary -----
+Producers: 10
+Consumers: 5
+Buffer size: 20
+Produced records: 1000
+Total simulation time (ms): 2395
+
+Store-wide total sales:
+Store 1: 48624.36
+Store 2: 51274.57
+Store 3: 52008.27
+Store 4: 50912.56
+Store 5: 51743.21
+Store 6: 51195.02
+Store 7: 47813.15
+Store 8: 50477.99
+Store 9: 47463.46
+Store 10: 47300.44
+
+Month-wise total sales (all stores):
+Month 01: 47027.05
+Month 02: 45892.57
+Month 03: 41420.40
+Month 04: 43348.20
+Month 05: 39176.94
+Month 06: 40825.20
+Month 07: 36395.16
+Month 08: 39285.83
+Month 09: 36234.70
+Month 10: 34722.27
+Month 11: 45451.63
+Month 12: 49033.08
+
+Aggregate sales: 498813.03
+
+=== Running configuration p=10, c=10 ===
+Consumer 6 local stats: consumed=99, aggregateSales=51347.11
+Consumer 5 local stats: consumed=98, aggregateSales=49052.06
+Consumer 4 local stats: consumed=96, aggregateSales=41707.71
+Consumer 8 local stats: consumed=104, aggregateSales=52257.03
+Consumer 1 local stats: consumed=97, aggregateSales=49418.77
+Consumer 3 local stats: consumed=103, aggregateSales=48258.84
+Consumer 7 local stats: consumed=109, aggregateSales=55839.44
+Consumer 10 local stats: consumed=99, aggregateSales=51640.32
+Consumer 2 local stats: consumed=96, aggregateSales=48584.04
+Consumer 9 local stats: consumed=99, aggregateSales=48111.05
+
+----- Simulation Summary -----
+Producers: 10
+Consumers: 10
+Buffer size: 20
+Produced records: 1000
+Total simulation time (ms): 2271
+
+Store-wide total sales:
+Store 1: 51170.72
+Store 2: 44604.96
+Store 3: 46213.31
+Store 4: 49122.27
+Store 5: 48727.84
+Store 6: 55592.05
+Store 7: 48524.51
+Store 8: 48399.79
+Store 9: 52510.15
+Store 10: 51350.77
+
+Month-wise total sales (all stores):
+Month 01: 34042.24
+Month 02: 39806.44
+Month 03: 40999.67
+Month 04: 49153.51
+Month 05: 33833.87
+Month 06: 46871.09
+Month 07: 47534.47
+Month 08: 48133.51
+Month 09: 44885.60
+Month 10: 37745.56
+Month 11: 35902.03
+Month 12: 37308.38
+
+Aggregate sales: 496216.37
+
+Batch summary saved to: output\summary-9-runs.csv
