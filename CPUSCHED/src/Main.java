@@ -1,41 +1,61 @@
-
 import java.io.*;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
-        List<Process> processes = new ArrayList<>();
 
-        String filename = "input/datafile-txt.txt";
+    public static void main(String[] args) {
+        List<Process> processes = readProcesses("input/datafile-txt.txt");
+
+        System.out.println("Loaded " + processes.size() + " processes.");
+
+        Scheduler.runFIFO(copyProcesses(processes));
+        Scheduler.runSJF(copyProcesses(processes));
+    }
+
+    public static List<Process> readProcesses(String filename) {
+        List<Process> processes = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
             String line;
             boolean firstLine = true;
 
-           while ((line = br.readLine()) != null && processes.size() < 500) {
-    line = line.trim();
+            while ((line = br.readLine()) != null && processes.size() < 500) {
+                line = line.trim();
 
-    if (line.isEmpty()) continue;
+                if (line.isEmpty()) {
+                    continue;
+                }
 
-    if (firstLine) {
-        firstLine = false;
-        continue;
-    }
+                // Skip header row
+                if (firstLine) {
+                    firstLine = false;
+                    continue;
+                }
 
-    String[] parts = line.split("\\s+");
+                String[] parts = line.split("\\s+");
 
-    int arrival = Integer.parseInt(parts[0]);
-    int burst = Integer.parseInt(parts[1]);
+                int arrivalTime = Integer.parseInt(parts[0]);
+                int burstTime = Integer.parseInt(parts[1]);
 
-    processes.add(new Process(arrival, burst));
-}
+                processes.add(new Process(arrivalTime, burstTime));
+            }
 
-        } catch (Exception e) {
-            System.out.println("Error reading file: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("Error reading input file: " + e.getMessage());
+        } catch (NumberFormatException e) {
+            System.out.println("Error: input file contains invalid numbers.");
         }
 
-        System.out.println("Loaded " + processes.size() + " processes.");
+        return processes;
+    }
 
-        Scheduler.runFIFO(processes);
+    public static List<Process> copyProcesses(List<Process> original) {
+        List<Process> copy = new ArrayList<>();
+
+        for (Process p : original) {
+            copy.add(new Process(p.arrivalTime, p.burstTime));
+        }
+
+        return copy;
     }
 }
