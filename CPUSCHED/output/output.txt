@@ -1,15 +1,19 @@
 Loaded 500 processes.
-Processes: 500
-Total Time: 14744
+
+--- FIFO RESULTS ---
+Number of Processes: 500
+Total Elapsed Time: 14744
+Throughput: 21.116
 CPU Utilization: 0.7160879001627781
-Avg Waiting Time: 17.884
-Avg Turnaround Time: 39.0
-Avg Response Time: 17.884
+Average Waiting Time: 17.884
+Average Turnaround Time: 39.0
+Average Response Time: 17.884
 
 --- SJF RESULTS ---
-Processes: 500
-Total Time: 14744
+Number of Processes: 500
+Total Elapsed Time: 14744
+Throughput: 21.116
 CPU Utilization: 0.7160879001627781
-Avg Waiting Time: 14.24
-Avg Turnaround Time: 35.356
-Avg Response Time: 14.24
+Average Waiting Time: 14.24
+Average Turnaround Time: 35.356
+Average Response Time: 14.24
