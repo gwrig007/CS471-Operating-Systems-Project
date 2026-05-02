@@ -1,14 +1,22 @@
 # CPU Scheduling Simulation
 
-## Algorithms
-- FIFO
-- SJF without preemption
+## Algorithms Implemented
+- FIFO (First-In First-Out)
+- SJF (Shortest Job First - Non Preemptive)
 
-## Input File
-input/datafile-txt.txt
+## Input
+- File: input/datafile-txt.txt
+- Contains 500 processes with:
+  - Arrival Time
+  - CPU Burst Time
+
+## Output
+- Results printed to console
+- Sample output saved in:
+  - output/output.txt
 
 ## Compile
-cd CPUSCHED/src
+cd src
 javac *.java
 
 ## Run
